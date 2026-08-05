@@ -1,61 +1,72 @@
 # Model 2 Test Results
 
-**Date:** May 2026  
-**Model:** Lyric Intelligence Analyzer
-
----
-
-## Test 1: Lyric Feature Validation
+**Test 1: Lyric Analysis Validation**
 
 ### Input
 
-**Song:** "2 Hands"  
+**Song:** 2 Hands  
 **Artist:** Tate McRae
 
-### Objective
+---
 
-Validate the Lyric Intelligence Analyzer by extracting sentiment and custom NLP features from a commercially released song.
+### Output
 
-### Features Evaluated
+| Feature | Result |
+|---------|-------:|
+| Positive Sentiment | 0.6667 |
+| Negative Sentiment | 0.1667 |
+| Neutral Sentiment | 0.1667 |
+| Hook Density | 0.5237 |
+| Lexical Diversity | 0.2444 |
+| Semantic Coherence | 0.4480 |
+| Token Count | 543 |
+| Profanity Count | 2 |
 
-- Sentiment polarity
-- Lexical diversity (Type-Token Ratio)
-- Hook density
-- Chorus detection
-- Line repetition rate
-- Semantic coherence
-- Profanity detection
+---
 
-### Results
+### Output Quality
 
-✅ Successfully generated sentiment predictions using the pretrained RoBERTa model.
+✅ Successfully classified overall lyrical sentiment.
 
-✅ Correctly extracted lexical diversity and semantic coherence metrics.
+✅ Extracted lexical diversity and semantic coherence metrics.
 
-✅ Detected repeated chorus structures used to calculate hook density.
+✅ Detected hook density using repeated lyrical structures.
 
-✅ Successfully identified profanity indicators when present.
+✅ Identified profanity occurrences.
 
-### Outcome
+---
 
-The extracted features were successfully formatted for downstream integration with:
+### Visualizations Generated
+
+- ✅ Sentiment Distribution
+- ✅ Structural Feature Analysis
+- ✅ Token & Profanity Counts
+
+---
+
+### Integration Status
+
+The extracted NLP features were successfully formatted for:
 
 - Model 3 – Marketing Strategy Generator
 - Model 4 – Agentic AI Orchestrator
 
 ---
 
-## Integration Status
+### Ready for Team Integration
 
-| Component | Status |
-|-----------|--------|
-| Sentiment Analysis | ✅ Passed |
-| Feature Extraction | ✅ Passed |
-| Output Formatting | ✅ Passed |
-| Team Integration | ✅ Passed |
+✅ YES
 
----
+## Visual Results
 
-## Summary
+### Sentiment Distribution
 
-The Lyric Intelligence Analyzer successfully extracted structured NLP features from song lyrics and produced outputs compatible with the complete StreamBreaker AI pipeline. Validation using Tate McRae's **"2 Hands"** confirmed that the analyzer generated the expected lyrical features for downstream models.
+![Sentiment Distribution](assets/sentiment_distribution.png)
+
+### Structural Features
+
+![Structural Features](assets/structural_features.png)
+
+### Token & Profanity Counts
+
+![Token Counts](assets/token_counts.png)
