@@ -69,4 +69,4 @@ The extracted NLP features were successfully formatted for:
 
 ### Token & Profanity Counts
 
-![Token Counts](assets/token_counts.png)
+![Token Counts](assets/counts.png)
