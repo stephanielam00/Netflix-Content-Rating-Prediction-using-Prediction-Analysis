@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+datasets
+evaluate
+transformers
+torch
+sentence-transformers
+scikit-learn
+nltk
